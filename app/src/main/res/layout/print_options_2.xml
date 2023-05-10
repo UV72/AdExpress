@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_blue_gradient">
+
+    <ImageButton
+        android:id="@+id/print2_home"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="end"
+        android:src="@drawable/home_white_24dp"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:contentDescription="Home button"/>
+
+    <TextView
+        android:layout_width="226dp"
+        android:layout_height="96dp"
+        android:text="@string/in_which_size_would_you_like_your_ad_to_be_printed"
+        android:layout_marginStart="25dp"
+        android:textSize="25dp"
+        android:layout_marginTop="74dp"
+        android:textAppearance="@style/where_would"/>
+
+    <Button
+        android:id="@+id/full_page"
+        android:layout_width="228dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="97dp"
+        android:text="Full page"
+        style="@style/button" />
+
+    <Button
+        android:id="@+id/half_page"
+        android:layout_width="228dp"
+        android:layout_height="60dp"
+        android:text="Half page"
+        android:layout_marginTop="16dp"
+        style="@style/button" />
+
+    <Button
+        android:id="@+id/quarter_page"
+        android:layout_width="228dp"
+        android:layout_height="60dp"
+        android:text="Quarter page"
+        android:layout_marginTop="16dp"
+        style="@style/button" />
+
+</LinearLayout>

@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/android_lar"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipToOutline="true"
+    android:background="@drawable/background_blue_gradient">
+
+    <TextView
+        android:id="@+id/welcome_"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="1dp"
+        android:gravity="top"
+        android:text="@string/welcome_"
+        android:textAppearance="@style/welcome_" />
+
+    <TextView
+        android:id="@+id/how_can_we_"
+        android:layout_width="226dp"
+        android:layout_height="76dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="97dp"
+        android:gravity="top"
+        android:text="@string/how_can_we_"
+        android:textAppearance="@style/how_can_we_" />
+
+    <Button
+        android:id="@+id/audioAds"
+        android:layout_width="228dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="242dp"
+        android:backgroundTintMode="screen"
+        android:text="Audio ads"
+        style="@style/button"/>
+
+
+    <Button
+        android:id="@+id/videoAds"
+        android:layout_width="228dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="311dp"
+        android:text="Video ads"
+        style="@style/button"/>
+
+<!--    <ImageButton-->
+<!--        android:id="@+id/printAds"-->
+<!--        android:layout_width="228dp"-->
+<!--        android:layout_height="49dp"-->
+<!--        android:layout_alignParentLeft="true"-->
+<!--        android:layout_marginLeft="25dp"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_marginTop="380dp"-->
+<!--        android:src="@drawable/ic_print_ads"/>-->
+
+    <Button
+        android:id="@+id/printAds"
+        android:layout_width="228dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="380dp"
+        android:text="Print ads"
+        style="@style/button"/>
+
+</RelativeLayout>

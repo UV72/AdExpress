@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="226dp"
+        android:layout_height="96dp"
+        android:text="@string/where_would"
+        android:layout_marginStart="25dp"
+        android:textSize="25dp"
+        android:layout_marginTop="74dp"
+        android:textAppearance="@style/where_would"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="97dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <CheckBox
+            android:id="@+id/newspaperCheckBox"
+            style="@style/checkBox"
+            android:text="@string/newspaper"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+        <TextView
+            android:id="@+id/radio_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/newspaper_price"
+            android:textSize="25dp"
+            android:textAlignment="viewEnd"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <CheckBox
+            android:id="@+id/pamphletCheckBox"
+            android:layout_width="154dp"
+            android:layout_height="wrap_content"
+            android:text="@string/pamphlet"
+            android:textSize="25dp"
+            android:textFontWeight="500"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/pamphlet_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pamphlet_price"
+            android:textSize="25dp"
+            android:textAlignment="viewEnd"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <CheckBox
+            android:id="@+id/bannerCheckBox"
+            android:layout_width="154dp"
+            android:layout_height="wrap_content"
+            android:text="@string/banner"
+            android:textSize="25dp"
+            android:textFontWeight="500"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/banner_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/banner_price"
+            android:textSize="25dp"
+            android:textAlignment="viewEnd"/>
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <ImageButton
+        android:id="@+id/print_proceed"
+        android:layout_width="228dp"
+        android:layout_height="49dp"
+        android:src="@drawable/proceed_button"
+        android:layout_gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="72dp"/>
+
+</LinearLayout>

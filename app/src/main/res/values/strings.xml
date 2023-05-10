@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">LDRP_Project1</string>
+    <string name="welcome_">
+
+Welcome!
+</string>
+    <string name="how_can_we_">How can we help you today?</string>
+    <string name="print_ads" />
+    <string name="where_would">Where would you like your ad to be displayed?</string>
+    <string name="television">Television</string>
+    <string name="television_price">₹ 23,000</string>
+    <string name="youtube">YouTube</string>
+    <string name="youtube_price">₹ 10,000</string>
+    <string name="outdoor_price">₹ 18,000</string>
+    <string name="outdoor">Outdoor</string>
+    <string name="radio">Radio</string>
+    <string name="spotify">Spotify</string>
+    <string name="podcast">Podcast</string>
+    <string name="radio_price">₹ 3500</string>
+    <string name="spotify_price">₹ 5000</string>
+    <string name="podcast_price">₹ 1500</string>
+    <string name="newspaper">Newspaper</string>
+    <string name="newspaper_price">₹ 5000</string>
+    <string name="pamphlet">Pamphlet</string>
+    <string name="pamphlet_price">₹ 3000</string>
+    <string name="banner">Banner</string>
+    <string name="banner_price">₹ 1350</string>
+    <string name="cart_verify">Please verify your cart items</string>
+    <string name="where_would_you_like_to_put_your_ad">Where would you like to put your ad?</string>
+    <string name="which_kind_of_ad_would_you_like_to_display">Which kind of ad would you like to display?</string>
+    <string name="in_which_size_would_you_like_your_ad_to_be_printed">In which size would you like your ad to be printed</string>
+</resources>

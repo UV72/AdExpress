@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_blue_gradient">
+
+    <ImageButton
+        android:id="@+id/newspaper_home"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="end"
+        android:src="@drawable/home_white_24dp"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:contentDescription="Home button"/>
+
+    <TextView
+        android:layout_width="242dp"
+        android:layout_height="96dp"
+        android:text="Which paper do you want your ad in?"
+        android:layout_marginStart="25dp"
+        android:textSize="25dp"
+        android:layout_marginTop="74dp"
+        android:textAppearance="@style/where_would"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/GujaratSamachar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/checkBox"
+                android:text="Gujarat Samachar"
+                android:layout_marginTop="20dp"/>
+
+            <CheckBox
+                android:id="@+id/DivyaBhaskar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/checkBox"
+                android:text="Divya Bhaskar"
+                android:layout_marginTop="20dp"/>
+
+            <CheckBox
+                android:id="@+id/Sandesh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/checkBox"
+                android:text="Sandesh"
+                android:layout_marginTop="20dp"/>
+
+            <CheckBox
+                android:id="@+id/NirmalGujarat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/checkBox"
+                android:text="Nirmal Gujarat"
+                android:layout_marginTop="20dp"/>
+
+            <CheckBox
+                android:id="@+id/TheHindu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/checkBox"
+                android:text="The Hindu"
+                android:layout_marginTop="20dp"/>
+
+            <CheckBox
+                android:id="@+id/TheTimesOfIndia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/checkBox"
+                android:text="Times of India"
+                android:layout_marginTop="20dp"/>
+
+            <CheckBox
+                android:id="@+id/HindustanTimes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/checkBox"
+                android:text="Hindustan Times"
+                android:layout_marginTop="20dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/newspaperProceed"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginEnd="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="72dp"
+        android:text="Proceed"
+        style="@style/button"/>
+
+</LinearLayout>

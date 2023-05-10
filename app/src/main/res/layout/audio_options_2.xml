@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_blue_gradient">
+
+    <ImageButton
+        android:id="@+id/audio2_home"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="end"
+        android:src="@drawable/home_white_24dp"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:contentDescription="Home button"/>
+
+    <TextView
+        android:layout_width="226dp"
+        android:layout_height="96dp"
+        android:text="Which format would you like?"
+        android:layout_marginStart="25dp"
+        android:textSize="25dp"
+        android:layout_marginTop="74dp"
+        android:textAppearance="@style/where_would"/>
+
+    <Button
+        android:id="@+id/LiveRead"
+        android:layout_width="228dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="97dp"
+        android:text="Live Read"
+        style="@style/button" />
+
+    <Button
+        android:id="@+id/Produced"
+        android:layout_width="228dp"
+        android:layout_height="60dp"
+        android:text="Produced"
+        android:layout_marginTop="16dp"
+        style="@style/button" />
+
+
+</LinearLayout>

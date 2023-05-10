@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UploadActivity"
+    android:orientation="vertical"
+    android:background="@drawable/background_blue_gradient">
+
+    <TextView
+        android:id="@+id/how_can_we_"
+        android:layout_width="226dp"
+        android:layout_height="76dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="97dp"
+        android:gravity="top"
+        android:text="Please upload your ad here"
+        android:textAppearance="@style/how_can_we_" />
+
+    <Button
+        android:id="@+id/UploadButton"
+        style="@style/button"
+        android:textSize="25dp"
+        android:layout_width="346dp"
+        android:layout_height="80dp"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="97dp"
+        android:layout_marginBottom="48dp"
+        android:text="Upload" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/signOut"
+        android:layout_width="228dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="97dp"
+        android:layout_marginBottom="48dp"
+        android:text="sign out"
+        style="@style/button"
+        android:layout_gravity="bottom"/>
+
+</LinearLayout>

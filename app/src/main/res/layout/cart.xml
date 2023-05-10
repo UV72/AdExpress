@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/ParentLinearCart"
+    android:paddingStart="25dp"
+    android:paddingEnd="25dp"
+    android:background="@drawable/background_blue_gradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/LinearCart1">
+    <TextView
+        android:id="@+id/cartVerify"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="top"
+        android:text="@string/cart_verify"
+        android:textAppearance="@style/welcome_"
+        android:textSize="25sp"/>
+    </LinearLayout>
+
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/cartProceed"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginEnd="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="72dp"
+        android:text="Proceed"
+        style="@style/button"/>
+
+</LinearLayout>

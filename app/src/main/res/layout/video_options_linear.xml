@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="226dp"
+        android:layout_height="96dp"
+        android:text="@string/where_would"
+        android:layout_marginStart="25dp"
+        android:textSize="25dp"
+        android:layout_marginTop="74dp"
+        android:textAppearance="@style/where_would"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="97dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <CheckBox
+            android:id="@+id/televisionCheckBox"
+            android:layout_width="154dp"
+            android:layout_height="wrap_content"
+            android:text="@string/television"
+            android:textSize="25dp"
+            android:textFontWeight="500"
+            android:onClick="onCheckboxClicked"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/television"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/television_price"
+            android:textSize="25dp"
+            android:textAlignment="viewEnd"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <CheckBox
+            android:id="@+id/youtubeCheckBox"
+            android:layout_width="154dp"
+            android:layout_height="wrap_content"
+            android:text="@string/youtube"
+            android:textSize="25dp"
+            android:textFontWeight="500"
+            android:onClick="onCheckboxClicked"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/youtube"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/youtube_price"
+            android:textSize="25dp"
+            android:textAlignment="viewEnd"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <CheckBox
+            android:id="@+id/outdoorCheckBox"
+            android:layout_width="154dp"
+            android:layout_height="wrap_content"
+            android:text="@string/outdoor"
+            android:textSize="25dp"
+            android:textFontWeight="500"
+            android:onClick="onCheckboxClicked"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/outdoor_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/outdoor_price"
+            android:textSize="25dp"
+            android:textAlignment="viewEnd"/>
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <ImageButton
+        android:id="@+id/video_proceed"
+        android:layout_width="228dp"
+        android:layout_height="49dp"
+        android:src="@drawable/proceed_button"
+        android:layout_gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="72dp"/>
+    
+</LinearLayout>
